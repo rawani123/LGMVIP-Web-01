@@ -19,7 +19,7 @@ function App() {
       return oldItems.filter((arryElm,i)=>{
         return i !==id;
       })
-    })
+    });
   }
 
   const listOfItem =()=>{
